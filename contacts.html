@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contacts.css">
+	<link rel="icon" type="text/css" href="images/Zayd Enterprises.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script>
+        $(function(){
+            $(".hamburger").click(function(){
+              $(".menu").toggleClass("active");  
+            })
+        })
+    </script>
+</head>
+<body>
+	 <!--navbar begins-->
+	<nav>
+		<h2 class="logo">yusuf abdulrahman</h2>
+		 
+		<div class="menu">
+			<a href="index.html">Home</a></li>
+			<a href="resume.html">Resume</a></li>
+			<a href="aboutme.html">About Me</a></li> 
+			<a href="contacts.html" class="active">Contact Us</a></li>
+		</div>
+		<div class="hamburger">
+			<i class="fas fa-bars"></i>
+		</div>
+	</nav>
+	<!--navbar ends-->
+
+	<!--contact coding starts-->
+	 <div class="contactsection">
+	 	<h1>Contact Us</h1>
+
+	 	<form class="contact-form" action="index.html" method="post">
+	 		<input type="text" class="contact-form-text" placeholder="Your name">
+	 		<input type="e-mail" class="contact-form-text" placeholder="Your e-mail">
+	 		<input type="text" class="contact-form-text" placeholder="Your phone">
+	 		<textarea class="contact-form-text" placeholder="Your message"></textarea>
+	 			<input type="submit" class="contact-form-btn" value="Submit">
+	 	</form>
+	 	
+	 </div>
+	<!--contact coding ends-->
+	
+</body>
+</html>
